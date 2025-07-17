@@ -5,10 +5,11 @@
 	(uuid "67d7a09d-714d-4c6a-b0c8-866fef7f8232")
 	(paper "A4")
 	(title_block
-		(title "205720-03 power supply")
+		(title "205720-03 battery charger")
 		(company "Dyson")
-		(comment 1 "26.1V, 0.78A")
 		(comment 2 "Manufacturer: Salom Electric")
+		(comment 3 "Input: 100-240V ~ 50/60Hz 0.6A")
+		(comment 4 "Output: 26.10V =, 0.78A")
 	)
 	(lib_symbols
 		(symbol "Device:C"
@@ -4360,6 +4361,16 @@
 		)
 		(uuid "3d469781-e7cd-448a-96b1-6298f1323f5a")
 	)
+	(polyline
+		(pts
+			(xy 87.63 66.04) (xy 116.84 66.04)
+		)
+		(stroke
+			(width 1)
+			(type dash_dot)
+		)
+		(uuid "3e30f303-ff76-45e7-bbcb-b085b14d9bf2")
+	)
 	(wire
 		(pts
 			(xy 163.83 53.34) (xy 189.23 53.34)
@@ -4830,6 +4841,16 @@
 		)
 		(uuid "aa748a41-87d5-4a16-ba76-7128568f05cc")
 	)
+	(polyline
+		(pts
+			(xy 87.63 21.59) (xy 87.63 66.04)
+		)
+		(stroke
+			(width 1)
+			(type dash_dot)
+		)
+		(uuid "ac50f4ab-3d3f-447a-b64f-01d4f113ad52")
+	)
 	(wire
 		(pts
 			(xy 27.94 146.05) (xy 41.91 146.05)
@@ -4959,6 +4980,16 @@
 			(type default)
 		)
 		(uuid "bf8f2079-4050-467a-b543-cf4ce1da575b")
+	)
+	(polyline
+		(pts
+			(xy 116.84 66.04) (xy 116.84 170.18)
+		)
+		(stroke
+			(width 1)
+			(type dash_dot)
+		)
+		(uuid "c1587e45-897a-4d2b-9155-dc517b93bd5f")
 	)
 	(wire
 		(pts
@@ -5895,7 +5926,7 @@
 		(dnp no)
 		(uuid "4d1d734b-de05-4087-92be-de27770b7071")
 		(property "Reference" "EC201"
-			(at 127 94.3609 0)
+			(at 130.556 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5904,7 +5935,7 @@
 			)
 		)
 		(property "Value" "330uF, 35V"
-			(at 127 96.9009 0)
+			(at 130.556 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
